@@ -4,7 +4,7 @@
 // Application Case https://github.com/alfcrisci/Ardomino presented 
 // OfficinaIbimet IBIMET CNR http://www.fi.ibimet.cnr.it/
 // Author: Alessandor Matese - Alfonso Crisci - OfficinaIbimet
-// General scheme and function are done by Mirko Mancini in his work thesis DESIGN AND IMPLEMENTATION OF AN AMBIENT INTELLIGENCE SYSTEM BASED ON ARDUINO AND ANDROID Universita di Parma FAC. DI INGEGNERIA CORSO DI LAUREA IN INGEGNERIA INFORMATICA 
+// General scheme and function are done by Mirko Mancin in his work thesis DESIGN AND IMPLEMENTATION OF AN AMBIENT INTELLIGENCE SYSTEM BASED ON ARDUINO AND ANDROID Universita di Parma FAC. DI INGEGNERIA CORSO DI LAUREA IN INGEGNERIA INFORMATICA 
 // Mirko Mancin - mirkomancin90@gmail.com  website:  www.mancio90.it forum http://forum.arduino.cc/index.php?topic=157524.0;wap2
 // Library reference
 // https://github.com/adafruit/DHT-sensor-library 
@@ -165,7 +165,7 @@ break;
 
 
 // Wireless configuration and restart in error with next reset. 
-// Function Author: Mirko Mancini 
+// Function Author: Mirko Mancin
 
 
 int configWIFI(){
@@ -248,7 +248,7 @@ void println_P(const prog_char *str)
 
 // Sending Json formatted data procedure 
 // Waiting server's response to send next data packet. 
-// Function Author Mirko Mancini 
+// Function Author Mirko Mancin
 
 
 
@@ -288,7 +288,7 @@ void InvioWIFIHttp(char* jsonStringHead,char* jsonStringBody, int lungh)
     }   
 }
 
-// function for raw JSON  parsing code Author Mirko Mancini 
+// function for raw JSON  parsing code Author Mirko Mancin
 
 long parsingJSONString(char buffer[], int len){
     int k;
